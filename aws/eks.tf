@@ -1,5 +1,5 @@
 resource "aws_iam_role" "eks_cluster" {
-  name               = "eks-cluster"
+  name               = "spacelift-eks"
   assume_role_policy = <<POLICY
 {
   "Version": "2012-10-17",
