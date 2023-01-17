@@ -15,7 +15,7 @@ resource "aws_iam_role" "managed-stack" {
 # Attaching a nice, powerful policy to it.
 resource "aws_iam_role_policy_attachment" "managed-stack" {
   role       = aws_iam_role.managed-stack.name
-  policy_arn = "arn:aws:iam::aws:policy/PowerUserAccess"
+  policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
 }
 
 # Telling Spacelift stack to assume it.
