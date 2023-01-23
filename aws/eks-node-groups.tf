@@ -1,5 +1,5 @@
 resource "aws_iam_role" "nodes_general" {
-  name               = "spacelift"
+  name               = "spacelift-ng"
   assume_role_policy = <<POLICY
 {
   "Version": "2012-10-17",
