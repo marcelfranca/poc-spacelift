@@ -1,5 +1,5 @@
 resource "spacelift_stack" "managed-stack" {
-  name = "Stack managed by Spacelift"
+  name = "Spacelift POC"
 
   # Source code.
   repository = "poc-spacelift"
